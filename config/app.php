@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Europe/Zagreb',
 
     /*
     |--------------------------------------------------------------------------
@@ -168,6 +168,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
 		Centaur\CentaurServiceProvider::class,
+		Cviebrock\EloquentSluggable\ServiceProvider::class,
 
         /*
          * Application Service Providers...
